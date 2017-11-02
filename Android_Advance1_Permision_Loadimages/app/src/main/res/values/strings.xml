@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Android_Advance1_Permision_Loadimages</string>
+    <string name="showImage"> SHOW IMAGE</string>
+    <string name="showContact"> SHOW CONTACT</string>
+</resources>
