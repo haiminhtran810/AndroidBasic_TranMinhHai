@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hcm_102_0006.android_advance2_customviews.MainActivity">
+
+    <com.example.hcm_102_0006.android_advance2_customviews.customcompound.CompoundView
+        android:layout_width="300dp"
+        android:layout_height="46dp"
+        app:layout_constraintVertical_bias="0.133"
+        app:titleText="Color 1: "
+        app:valueColor="@android:color/holo_green_dark"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/lnGreen"/>
+
+    <com.example.hcm_102_0006.android_advance2_customviews.customcompound.CompoundView
+        android:layout_width="300dp"
+        android:layout_height="46dp"
+        app:titleText="Color 2: "
+        app:valueColor="@android:color/holo_blue_light"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.080"
+        android:id="@+id/lnBlue"
+        />
+
+
+    <com.example.hcm_102_0006.android_advance2_customviews.customview.DrawOnTheView
+        android:id="@+id/drawView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <Button
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/btnDeleteAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear" />
+</android.support.constraint.ConstraintLayout>
