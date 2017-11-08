@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DemoMVVM</string>
+    <string name="facebook_app_id">1936044816719005</string>
+    <string name="fb_login_protocol_scheme">fb1936044816719005</string>
+</resources>
